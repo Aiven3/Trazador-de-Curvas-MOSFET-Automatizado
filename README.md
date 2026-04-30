@@ -107,7 +107,8 @@ Además permite:
 * Francisco Jesús Domínguez Sosa
 * Iván Castillo Bravo
 * María Alejandra Pérez Santibañez
-Instituto Nacional de Astrofísica, Óptica y Electrónica (INAOE)
+  
+"Instituto Nacional de Astrofísica, Óptica y Electrónica (INAOE)"
 
 📜 Licencia
 
