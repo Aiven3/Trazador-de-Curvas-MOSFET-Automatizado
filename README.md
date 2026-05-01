@@ -81,7 +81,7 @@ python tracer_gui.py
 
 ## 🔧 Hardware Design
 
-![Schematic](hardware/schematic_mosfet_tracer.png)
+![Schematic](hardwareschematic_mosfet_tracer.png)
 
 
 📊 Resultados
