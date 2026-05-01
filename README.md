@@ -79,6 +79,11 @@ python tracer_gui.py
 4.- Iniciar barrido desde la interfaz
 5.- Visualizar curvas ID-VDS en tiempo real
 
+## 🔧 Hardware Design
+
+![Schematic](hardware/schematic_mosfet_tracer.png)
+
+
 📊 Resultados
 El sistema genera:
 --Curvas ID vs VDS para diferentes VGS
