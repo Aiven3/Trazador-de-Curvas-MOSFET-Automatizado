@@ -18,6 +18,55 @@ Sistema de caracterización de MOSFETs basado en ESP32, diseñado para obtener c
 
 ---
 
+## 🖼️ Vista general del proyecto
+
+![MOSFET Tracer](assets/presentacion.png)
+
+El sistema integra hardware de adquisición, firmware embebido en ESP32 y una interfaz gráfica en Python para realizar caracterización automatizada de MOSFETs de potencia.
+
+---
+
+## 🔧 Prototipo físico
+
+![Dispositivo](assets/dispositivo.png)
+
+El prototipo está montado sobre una base compacta e integra la etapa de potencia, disipación térmica, terminales de conexión para el DUT y comunicación hacia la computadora.
+
+---
+
+## 🧩 Esquemático del hardware
+
+![Esquemático](assets/diagrama_esquematico.png)
+
+El diseño incluye una unidad de control ESP32, DACs MCP4725, sensores INA228, etapas analógicas con amplificadores LMC6482 y una etapa de potencia para la caracterización del dispositivo bajo prueba.
+
+---
+
+## 🖥️ Interfaz gráfica
+
+![Interfaz](assets/interfaz.png)
+
+La interfaz permite seleccionar el puerto COM, iniciar el barrido de familia, visualizar las curvas ID-VDS, extraer parámetros eléctricos y exportar los datos generados.
+
+---
+
+## 📊 Resultados obtenidos
+
+![Gráficas](assets/graficas.png)
+
+El sistema genera familias de curvas ID-VDS para distintos valores de VGS, permitiendo analizar las regiones de operación del MOSFET y extraer parámetros como Vth y gm.
+
+---
+
+## 📚 Documentación adicional
+
+- [Guía de uso](assets/docs/guia_de_uso.pdf)
+- [Comparativa de trazadores de curvas](assets/docs/comparativa_trazadores.pdf)
+
+El reporte comparativo indica que el prototipo tiene un costo aproximado de 100 USD y destaca su ventaja frente a equipos comerciales por su relación potencia/costo y capacidad de medición pulsada. También menciona exportación directa a CSV, modelado compacto y seguridad dinámica ante sobrecorriente. :contentReference[oaicite:0]{index=0}
+
+
+
 ## 🧩 Arquitectura del sistema
 
 ESP32 (Firmware)
