@@ -20,7 +20,7 @@ Sistema de caracterización de MOSFETs basado en ESP32, diseñado para obtener c
 
 ## 🖼️ Vista general del proyecto
 
-![MOSFET Tracer](assets/Presentacion.png)
+![MOSFET_Tracer](/presentacion.png)
 
 El sistema integra hardware de adquisición, firmware embebido en ESP32 y una interfaz gráfica en Python para realizar caracterización automatizada de MOSFETs de potencia.
 
