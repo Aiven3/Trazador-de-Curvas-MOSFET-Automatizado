@@ -36,7 +36,8 @@ El prototipo está montado sobre una base compacta e integra la etapa de potenci
 
 ## 🧩 Esquemático del hardware
 
-![Esquemático](/diagrama_esquematico.png)
+![Esquemático](/hardwareschematic_mosfet_tracer.png)
+
 
 El diseño incluye una unidad de control ESP32, DACs MCP4725, sensores INA228, etapas analógicas con amplificadores LMC6482 y una etapa de potencia para la caracterización del dispositivo bajo prueba.
 
@@ -60,8 +61,8 @@ El sistema genera familias de curvas ID-VDS para distintos valores de VGS, permi
 
 ## 📚 Documentación adicional
 
-- [Guía de uso](/docs/guia_de_uso.pdf)
-- [Comparativa de trazadores de curvas](/docs/comparativa_de_trazadores_de_curvas.pdf)
+- [Guía de uso](/guia_de_uso.pdf)
+- [Comparativa de trazadores de curvas](/comparativa_de_trazadores_de_curvas.pdf)
 
 El reporte comparativo indica que el prototipo tiene un costo aproximado de 100 USD y destaca su ventaja frente a equipos comerciales por su relación potencia/costo y capacidad de medición pulsada. También menciona exportación directa a CSV, modelado compacto y seguridad dinámica ante sobrecorriente. :contentReference[oaicite:0]{index=0}
 
@@ -127,10 +128,6 @@ python tracer_gui.py
 3.- Configurar el puerto COM
 4.- Iniciar barrido desde la interfaz
 5.- Visualizar curvas ID-VDS en tiempo real
-
-## 🔧 Hardware Design
-
-![Schematic](hardwareschematic_mosfet_tracer.png)
 
 
 📊 Resultados
